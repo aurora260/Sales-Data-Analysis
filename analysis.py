@@ -19,3 +19,4 @@ print("Best Selling Product:", best_product)
 # Category-wise Sales
 print("\nCategory-wise Sales:")
 print(df.groupby("Category")["Sales"].sum())
+print("\nAnalysis completed successfully!")
